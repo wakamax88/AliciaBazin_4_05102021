@@ -653,7 +653,6 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: black !important;
 }
 
 .container {
@@ -774,20 +773,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #773413;
 }
 
 .tc-white {
   color: white !important;
 }
-
+.tc-orange {
+  color: #773413;
+}
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #773413;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #af4c1a !important;
   color: #ffffff !important;
 }
 
@@ -1042,4 +1043,7 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+a {
+  color: white;
 }
